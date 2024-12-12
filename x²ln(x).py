@@ -22,7 +22,6 @@ def midpoint_rule(a, b, n):
     integral = 0
 
     for i in range(n):
-      
         mid = a + (i + 0.5) * h
         integral += f(mid)
 
